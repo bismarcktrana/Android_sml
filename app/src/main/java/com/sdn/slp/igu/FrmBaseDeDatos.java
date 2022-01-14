@@ -1,4 +1,4 @@
-package com.sdn.sml;
+package com.sdn.slp.igu;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +24,7 @@ import com.sdn.tableview.TableViewModel;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class FrmBaseDeDatos extends AppCompatActivity {
     Spinner cbxtabla;
     ArrayList<String> tablas;
 
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.frm_base_de_datos);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

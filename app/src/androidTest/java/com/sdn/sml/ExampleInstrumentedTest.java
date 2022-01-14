@@ -1,4 +1,4 @@
-package com.sdn.sml;
+package com.sdn.slp;
 
 import android.content.Context;
 
