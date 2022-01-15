@@ -8,11 +8,15 @@
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/frm_base_de_datos.xml" value="0.22" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/frm_iniciar_sesion.xml" value="0.23069001029866118" />
+        <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/frm_principal.xml" value="0.33" />
+        <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/mimnu_pnl_administrador.xml" value="0.32722513089005234" />
+        <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/mimnu_pnl_operador.xml" value="0.21510416666666668" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/pnl_ingreso.xml" value="0.1" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/pnl_parametro.xml" value="0.5" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/layout/pnl_usuario.xml" value="0.11388888888888889" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/menu/mnu_basedatos.xml" value="0.209375" />
         <entry key="..\:/Desarrollo/prueba/app/src/main/res/menu/mnu_ingreso.xml" value="0.225" />
+        <entry key="..\:/Desarrollo/prueba/app/src/main/res/menu/mnu_principal.xml" value="0.278125" />
         <entry key="..\:/Desarrollo/prueba/app/tableview/src/main/res/drawable/ic_down.xml" value="0.2101851851851852" />
         <entry key="..\:/Desarrollo/prueba/app/tableview/src/main/res/layout/layout.xml" value="0.1953125" />
         <entry key="..\:/Desarrollo/prueba/app/tableview/src/main/res/layout/table_view_cell_layout.xml" value="0.67" />

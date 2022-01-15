@@ -35,8 +35,8 @@ public class ConfApp {
     /**
      * VARIABLES GLOBAL DEL SISTEMA
      */
-   // public static Boolean USER_DTS = false;
-   // public static Boolean USER_ADMIN = false;
+    public static Boolean USER_DTS = false;
+    public static Boolean USER_ADMIN = false;
 
     public static String UUID_FROM_DEVICE;
     public static String UUID_ENCRYPTED;

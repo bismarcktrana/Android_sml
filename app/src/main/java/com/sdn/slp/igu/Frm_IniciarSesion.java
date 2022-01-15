@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sdn.slp.controlador.Tbl_Parametro;
+import com.sdn.slp.modelo.Operador;
 import com.sdn.utils.ConfApp;
 import com.sdn.utils.Utils;
 
@@ -65,10 +66,15 @@ public class Frm_IniciarSesion extends AppCompatActivity {
 
         if(!Usuario.isEmpty() && !Clave.isEmpty()){
             if(Usuario.equals(ConfApp.SYSTEM_USER) && Clave.equals(ConfApp.SYSTEM_PASS)){
-                /*Intent nuevaPantalla = new Intent(Frm_IniciarSesion.this, FrmConfigurar.class);
-                startActivity(nuevaPantalla);*/
+                ConfApp.USER_DTS=true;
+                ConfApp.USER_ADMIN=true;
+                ConfApp.OPERADORLOGEADO = new Operador(Usuario,Clave,Usuario,1);
+                Intent nuevaPantalla = new Intent(Frm_IniciarSesion.this, FrmPrincipal.class);
+                startActivity(nuevaPantalla);
             }else{
-
+                ConfApp.USER_DTS=false;
+                ConfApp.USER_ADMIN=false;
+                ConfApp.OPERADORLOGEADO = new Operador();
             }
 
 
@@ -87,6 +93,12 @@ public class Frm_IniciarSesion extends AppCompatActivity {
         ConfApp.loadParameters(Frm_IniciarSesion.this);
         lblCliente.setText(Html.fromHtml("<CENTER><B>INDUSTRIAL COMERCIAL<BR>SAN MARTIN</B></CENTER>"));
         actualizarMensajeLicencia();
+        limpiarFormulario();
+    }
+    private void limpiarFormulario(){
+        txtusuario.setText("");
+        txtClave.setText("");
+        txtusuario.requestFocus();
     }
 
     private void actualizarMensajeLicencia() {
@@ -174,6 +186,7 @@ public class Frm_IniciarSesion extends AppCompatActivity {
                     }
 
                     actualizarMensajeLicencia();
+                    limpiarFormulario();
                 }
             }
         });

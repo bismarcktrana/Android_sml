@@ -2,9 +2,9 @@ package com.sdn.slp.modelo;
 
 public class Operador {
     int id;
-    String Usuario;
-    String Clave;
-    String Nombre;
+    String Usuario="";
+    String Clave="";
+    String Nombre="";
     int tipo;
 
     public Operador() {
