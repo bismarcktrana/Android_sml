@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">ISA MOVIL</string>
+    <string name="app_name">SPP MOVIL</string>
+    <string name="app_descripcion">Sistema de Preparacion de Pedidos Movil</string>
     <!-- FORMULARIO PARA GESTIONAR LA PANTALLA DE BASE DE DATOS -->
     <string name="frmbd">GESTION DE BASE DE DATOS</string>
     <string name="sms_descripcion_tabla">Lista de Tablas</string>
